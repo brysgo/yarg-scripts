@@ -1,0 +1,12 @@
+{
+  "name": "yarg-scripts",
+  "version": "0.0.1",
+  "description": "Sensible defaults for git style subcommands",
+  "main": "index.js",
+  "repository": "git@github.com:brysgo/yarn-scripts.git",
+  "author": "Bryan Goldstein <brysgo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^10.0.3"
+  }
+}
