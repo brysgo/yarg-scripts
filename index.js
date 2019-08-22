@@ -8,5 +8,5 @@ require("fs")
   .readdirSync(normalizedPath)
   .reduce(function(acc, file) {
     const args = require("../../scripts/" + file);
-    return acc.command(args);
+    return acc.command(args.default || args);
   }, argv).help().argv;
